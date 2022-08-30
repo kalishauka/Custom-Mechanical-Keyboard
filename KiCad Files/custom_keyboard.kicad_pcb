@@ -43,6 +43,7 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
+    (grid_origin 2.2225 165.4175)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -4978,7 +4979,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 00000000-0000-0000-0000-000062dd3f07)
-    (at 229.55 43.18)
+    (at 93.8784 149.5044)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "C:/Users/kalis/OneDrive/Desktop/keyboard/keyboard_tutorial-main/KiCad Files/custom_keyboard.sch")
@@ -9640,7 +9641,7 @@
 
   (footprint "Fuse:Fuse_1206_3216Metric" (layer "B.Cu")
     (tedit 5F68FEF1) (tstamp 00000000-0000-0000-0000-000062dd4c8d)
-    (at 157.48 45.72 -90)
+    (at 35.6616 63.5381 -90)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "fuse")
     (property "Sheetfile" "C:/Users/kalis/OneDrive/Desktop/keyboard/keyboard_tutorial-main/KiCad Files/custom_keyboard.sch")
@@ -9682,7 +9683,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (layer "B.Cu")
     (tedit 59FED5CC) (tstamp 00000000-0000-0000-0000-000062dd4ca6)
-    (at 204.7875 44.45 -90)
+    (at 77.1702 154.7368 -90)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (property "Sheetfile" "C:/Users/kalis/OneDrive/Desktop/keyboard/keyboard_tutorial-main/KiCad Files/custom_keyboard.sch")
@@ -9735,7 +9736,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 00000000-0000-0000-0000-000062dd5553)
-    (at 184.15 43.18)
+    (at 37.7444 54.1909)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "C:/Users/kalis/OneDrive/Desktop/keyboard/keyboard_tutorial-main/KiCad Files/custom_keyboard.sch")
@@ -9777,7 +9778,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 00000000-0000-0000-0000-000062dd5564)
-    (at 184.15 48.26)
+    (at 37.846 58.7121)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "C:/Users/kalis/OneDrive/Desktop/keyboard/keyboard_tutorial-main/KiCad Files/custom_keyboard.sch")
@@ -10071,7 +10072,7 @@
 
   (footprint "TS:SW_TS-1187A-B-A-B" (layer "B.Cu")
     (tedit 62DBA572) (tstamp 00000000-0000-0000-0000-000062dd55f0)
-    (at 223.8375 43.65625)
+    (at 94.1651 154.7876)
     (property "MANUFACTURER" "XKB Industrial Precision")
     (property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm")
     (property "PARTREV" "A0")
@@ -10130,7 +10131,7 @@
 
   (footprint "random-keyboard-parts:SOT143B" (layer "B.Cu")
     (tedit 5E62B3A6) (tstamp 00000000-0000-0000-0000-000062dd566e)
-    (at 165.1 45.72)
+    (at 28.6512 63.9953)
     (property "Sheetfile" "C:/Users/kalis/OneDrive/Desktop/keyboard/keyboard_tutorial-main/KiCad Files/custom_keyboard.sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-000062f7fea0")
@@ -10174,7 +10175,7 @@
 
   (footprint "Type-C:HRO-TYPE-C-31-M-12" (layer "B.Cu")
     (tedit 5C42C658) (tstamp 00000000-0000-0000-0000-000062dd575c)
-    (at 175.26 41.275)
+    (at 30.4292 50.2075)
     (property "Sheetfile" "C:/Users/kalis/OneDrive/Desktop/keyboard/keyboard_tutorial-main/KiCad Files/custom_keyboard.sch")
     (property "Sheetname" "")
     (path "/0f67a084-d94e-4954-b57f-a219a38f7357")
@@ -10273,6 +10274,16 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 347.50375 51.1175) (end 36.35375 51.1175) (layer "Edge.Cuts") (width 0.05) (tstamp 1dc28a5c-978c-4401-a43d-9903ad913ac9))
+  (gr_line (start 349.09125 167.79875) (end 349.09125 52.705) (layer "Edge.Cuts") (width 0.05) (tstamp 2fbe5803-0425-4bf4-b1d9-b7ebf35cdcb3))
+  (gr_arc (start 3.81 169.38625) (mid 2.687468 168.921282) (end 2.2225 167.79875) (layer "Edge.Cuts") (width 0.05) (tstamp 7b68af81-3283-4ce3-8809-4fbacd202c70))
+  (gr_arc (start 2.2225 52.705) (mid 2.687468 51.582468) (end 3.81 51.1175) (layer "Edge.Cuts") (width 0.05) (tstamp 8f484a47-9b36-4e37-b0f2-f3f944e96e4b))
+  (gr_line (start 3.81 169.38625) (end 347.50375 169.38625) (layer "Edge.Cuts") (width 0.05) (tstamp 9e352dcc-8b0f-4785-a716-82d3eea16675))
+  (gr_line (start 2.2225 52.705) (end 2.2225 167.79875) (layer "Edge.Cuts") (width 0.05) (tstamp a9a234e1-c524-4e1d-a3b4-e16338a41e34))
+  (gr_arc (start 349.09125 167.79875) (mid 348.626282 168.921282) (end 347.50375 169.38625) (layer "Edge.Cuts") (width 0.05) (tstamp b9160255-785a-47fc-895d-f5512818e0a3))
+  (gr_arc (start 347.50375 51.1175) (mid 348.626282 51.582468) (end 349.09125 52.705) (layer "Edge.Cuts") (width 0.05) (tstamp d629f49b-b018-4164-9064-06f2f3d24249))
+  (gr_line (start 3.81 51.1175) (end 36.35375 51.1175) (layer "Edge.Cuts") (width 0.05) (tstamp db4c2974-d936-425a-b40b-8efbd160ce8c))
 
   (segment (start 142.875 112.7125) (end 142.875 122.2375) (width 0.254) (layer "F.Cu") (net 11) (tstamp 05062abe-8b93-47bd-b1d7-b00af68c35bd))
   (segment (start 128.74625 74.6125) (end 128.74625 80.764403) (width 0.254) (layer "F.Cu") (net 11) (tstamp 058f9434-881e-4e76-ac82-84d73369769d))
